@@ -1,0 +1,5 @@
+(library
+ (name reason_ui)
+ (libraries incr_dom)
+ (preprocess
+  (pps ppx_jane)))

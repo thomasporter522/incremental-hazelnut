@@ -1,0 +1,6 @@
+(executable
+ (public_name reason_ui)
+ (name main)
+ (libraries reason_ui incr_dom)
+ (preprocess
+  (pps js_of_ocaml-ppx ppx_jane)))
